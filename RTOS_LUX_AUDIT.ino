@@ -13,8 +13,6 @@
   #include <SimpleTimer.h>
 #endif
 
-// define two tasks for LightFeedBack & AnalogRead
-void TaskLightFeedBack( void *pvParameters );
 void TaskFilePlayer( void *pvParameters );
 //////////////////////////////////VARIABLES GLOBALES/////////////////////////////////////////
 #define FASTLED_ALLOW_INTERRUPTS 0
